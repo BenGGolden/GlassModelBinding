@@ -1,4 +1,4 @@
-# GlassModelBinding
+# Glass Model Binding
 
 This project implements ASP.NET model binding for Sitecore and Glass Mapper. It allows you to decouple your Sitecore MVC controllers from Glass Mapper by eliminating the need to derive from GlassController.  Instead, you can pass your glass models to your action methods as parameters and they will be mapped and ready to go.
 
