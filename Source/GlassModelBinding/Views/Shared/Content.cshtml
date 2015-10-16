@@ -1,0 +1,9 @@
+﻿@model GlassModelBinding.Models.ContentViewModel
+<div class="@Model.Parameters.CssClass">
+    <h1 class="contentTitle">
+        @Html.Glass().Editable(Model.DataSource, m => m.Title)
+    </h1>
+    <div class="contentDescription">
+        @Html.Glass().Editable(Model.DataSource, m => m.Text)
+    </div>
+</div>

@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Welcome to Sitecore</title>
+    <link href="/default.css" rel="stylesheet" />
+    @Html.Sitecore().VisitorIdentification()
+</head>
+<body>
+    <div id="MainPanel">
+        @Html.Sitecore().Placeholder("main")
+    </div>
+</body>
+</html>
