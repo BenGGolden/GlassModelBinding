@@ -138,7 +138,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Web.config" />
+    <Content Include="App_Config\Include\GlassModelBinding.config" />
     <None Include="Properties\PublishProfiles\sc80up3.pubxml" />
   </ItemGroup>
   <ItemGroup>

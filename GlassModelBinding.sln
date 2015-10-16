@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlassModelBinding", "Source\GlassModelBinding\GlassModelBinding.csproj", "{C644A57E-77DE-47E5-8DC8-9AC893031631}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7A9BF69-05B0-4E69-B3A5-21DCA80AF98E}"
+	ProjectSection(SolutionItems) = preProject
+		license = license
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
